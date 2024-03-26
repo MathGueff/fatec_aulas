@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo a usar tabela</title>
+    <meta name="keywords" content="Tabela, tags, html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Vamos começar a usar tabelas com o "table"</h2>
+    <!-- usando tr e td para criar uma célula da tabela -->
+    <table>
+        <tr> <!-- table row -->
+            <td> <!-- table data-->
+                <p>A tabela é formada por várias células</p>
+            </td>
+        </tr>
+        <tr> <!-- table row -->
+            <td> <!-- table data-->
+                <p>A tabela é formada por várias células</p>
+            </td>
+        </tr>
+        <tr> <!-- table row -->
+            <td> <!-- table data-->
+                <p>A tabela é formada por várias células</p>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <caption style="padding-top: 40px;">Tabela ilustrativa</caption>
+        <tr><th>Elementos</th><th>Tabela</th></tr> <!-- table head -->
+        <tr><td>Linha da tabela</td><td>Outra linha</td></tr>
+    </table>
+
+    <table>
+        <caption style="padding-top: 40px;">Tabela com mesclagem</caption>
+        <thead>
+            <tr>
+                <th>Título</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" style="text-align: center;">Conteúdo</td>
+            </tr>
+            <tr>
+                <td>Linha 2</td><td>Linha2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

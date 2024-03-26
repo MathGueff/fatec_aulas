@@ -1,0 +1,18 @@
+body{
+    padding: 0px 100px;
+}
+
+input[type="text"],[type="number"],[type="email"], [type="password"], [type="url"], [type="color"], [type="file"],[type="range"]{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+select{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+textarea{
+    width: 100%;
+    margin: 20px 0px;
+}

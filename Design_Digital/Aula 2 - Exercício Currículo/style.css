@@ -1,0 +1,17 @@
+body{
+    margin: 8%;
+    font-size: 18px;
+
+}
+
+h2{
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.header-curriculo{
+    background-color: rgb(194, 194, 194);
+    padding: 20px;
+    border-radius: 20px;
+}
+

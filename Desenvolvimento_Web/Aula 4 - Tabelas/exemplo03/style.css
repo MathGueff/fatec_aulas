@@ -1,0 +1,30 @@
+table, td, tr, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 10px;
+}
+
+th[scope="row"]{
+    color: rgb(219, 178, 137);
+    background-color: antiquewhite;
+}
+
+td[scope="col"]{
+    color: rgb(74, 160, 81);
+    background-color: rgb(215, 250, 228);
+}
+
+caption{
+    caption-side: bottom;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+    color: #34174d;
+}
+
+tr:nth-of-type(even) {
+    background-color: #f9f7f7;
+}

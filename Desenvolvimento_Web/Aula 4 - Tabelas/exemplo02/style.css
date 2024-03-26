@@ -1,0 +1,21 @@
+table, tr, td{
+    border: 1px solid rgb(91, 91, 91);
+    border-collapse: collapse;
+}
+
+td{
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+
+thead{
+    background-color: rgb(33, 54, 103);
+    color: white;
+}
+
+td:hover{
+    background-color: rgb(110, 26, 47);
+    color: beige;
+}
+
+/* Border collapse unifica as bordas da tabela */

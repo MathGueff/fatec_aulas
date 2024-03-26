@@ -1,0 +1,47 @@
+h1{
+    font-family: Roboto, sans-serif;
+}
+
+table, tr, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.poppins{
+    font-family: Poppins, sans-serif;
+    background-color: rgb(107, 56, 56);
+}
+
+.roboto{
+    font-family: Roboto, sans-serif;
+    background-color: rgb(58, 58, 117);
+}
+
+.ojuju{
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: rgb(77, 117, 77);
+}
+
+.rock-3d{
+    font-family: "Rock 3D", system-ui;
+    font-style: normal;
+    background-color: blanchedalmond;
+}
+
+.whisper{
+    font-family: "Whisper", cursive;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    background-color: blueviolet;
+}
+  

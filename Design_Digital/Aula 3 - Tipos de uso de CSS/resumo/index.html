@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de uso de CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .estilo-paragrafo{
+            color: red;
+            background-color: rgb(255, 240, 248);
+        }
+        p{
+            color: blue;
+            background-color: rgb(240, 245, 255);
+        }
+        *{
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <p>CSS interno (sem classe)</p>
+    <p class="estilo-paragrafo">CSS interno (com a classe estilo-paragrafo)</p>
+    <p id="estilo-verde">CSS externo (com o id estilo-verde)</p>
+    <p style="background: rgb(255, 240, 250); color:rgb(255, 0, 251);">CSS in-line (definição na própria linha)</p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+table{
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+
+th{
+    background-color: red;
+    padding: 12px;
+}
+
+td{
+    background-color: aquamarine;
+    padding: 12px;
+}
+
+caption{
+    background-color: blueviolet;
+}

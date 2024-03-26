@@ -1,0 +1,24 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.tabela_pesquisa td{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
