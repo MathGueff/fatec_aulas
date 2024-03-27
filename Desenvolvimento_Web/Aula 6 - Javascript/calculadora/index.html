@@ -7,11 +7,32 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <p id="titulo">Calculadora</p>
-    <form action="">
-        <label for="numero" id="labelNum">Número: </label>
-        <input type="text" name="numero" id="valorNum">
-        <button>Cadastrar</button>
-    </form>
+    <p id="titulo">Calculadora Padrão</p>
+    <label for="numero" id="labelNum">Número: </label>
+    <input type="text" name="numero" id="valorNum">
+    <br><br>
+    <button onmousemove="multiplicar()">Multiplicar</button>
+    <button onmousemove="dividir()">Dividir</button>
+    <p id="resultado">Resultado: </p>
+
+    <script>
+        function multiplicar()
+        {
+            n1 = document.getElementById("valorNum").value
+            x = n1 * 2
+            p1 = document.getElementById("resultado")
+            p1.innerHTML = "Resultado: " + x
+            //alert(p1.innerHTML)
+        }
+
+        function dividir(){
+            n1 = document.getElementById("valorNum").value
+            x = n1 / 2
+            p1 = document.getElementById("resultado")
+            p1.innerHTML = "Resultado: " + x 
+            //alert(p1.innerHTML)
+        }
+    </script>
+
 </body>
 </html>
