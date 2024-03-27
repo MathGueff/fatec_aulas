@@ -1,0 +1,25 @@
+body{
+    margin: 0px 20%;
+}
+
+input[type="text"],[type="number"],[type="email"], [type="password"], [type="url"], [type="color"], [type="file"],[type="range"]{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+select{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+textarea{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+h1{
+    font-size: 32px;
+    border: 3px solid rgb(165, 165, 165);
+    text-align: center;
+    margin: 10px 50px;
+}
