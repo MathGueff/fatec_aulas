@@ -21,8 +21,6 @@ for i in range (1,6):
     if(i < 5):
         print("---------------------")
 
-
-
     if(imc > maior_imc):
         maior_imc = imc
 
@@ -35,8 +33,9 @@ for i in range (1,6):
 media_peso = calc_peso/5
 media_altura = calc_altura/5
 
-print("---------------------")
+print("\n=====RESULTADOS======")
 print(f"Maior IMC: {maior_imc:.2f}")
 print(f"Menor IMC: {menor_imc:.2f}")
 print(f"A média dos pesos é {media_peso:.2f}")
 print(f"A média das alturas é {media_altura:.2f}")
+print("---------------------")

@@ -38,8 +38,10 @@ while m <= pessoas:
 
 media_peso = calc_peso/pessoas
 media_altura = calc_altura/pessoas
-print("---------------------")
+
+print("\n=====RESULTADOS======")
 print(f"Maior IMC: {maior_imc:.2f}")
 print(f"Menor IMC: {menor_imc:.2f}")
 print(f"A média dos pesos é {media_peso:.2f}")
 print(f"A média das alturas é {media_altura:.2f}")
+print("---------------------")
