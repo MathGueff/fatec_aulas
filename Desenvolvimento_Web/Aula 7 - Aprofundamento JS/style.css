@@ -1,0 +1,22 @@
+img {
+    width: 40px;
+    height: 40px;
+}
+
+input{
+    color: white;
+    background-color: black;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 0.5;
+}
