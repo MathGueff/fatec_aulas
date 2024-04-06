@@ -1,0 +1,15 @@
+livros
+- ISBN (PK)
+- titulo
+- ano
+- editora
+- autores
+
+autores
+- nome
+- nacionalidade
+
+categoria
+- nome
+- descricao
+- id_categoria

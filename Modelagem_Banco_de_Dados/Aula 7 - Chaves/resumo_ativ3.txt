@@ -1,0 +1,19 @@
+bebe
+- nome
+- data_nasc
+- peso_nasc
+- altura
+- id_mae (FK)
+- id_medico
+
+médicos
+- CRM
+- nome
+- telefone
+- data_nasc
+
+mães
+- nome
+- endereço
+- telefone
+- data_nasc

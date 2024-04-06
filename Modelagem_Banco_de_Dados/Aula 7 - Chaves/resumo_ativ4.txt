@@ -1,0 +1,12 @@
+Clientes
+- RG
+- nome
+- telefone
+- endereço
+
+Vendas:
+- nome
+- tipo
+- preço
+- qtd
+
