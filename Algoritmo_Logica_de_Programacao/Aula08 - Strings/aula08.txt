@@ -1,0 +1,5 @@
+Vimos como usar o substr no Python
+Aprendemos a verificar diversos tipos de string (.isdigit e .isalpha)
+Aprendemos a criar um laço infinito (while True)
+Aprendemos a remover os espaços (string.strip())
+Usamos o string.split para separar o valor de uma variável em uma lista (nome e sobrenome)
