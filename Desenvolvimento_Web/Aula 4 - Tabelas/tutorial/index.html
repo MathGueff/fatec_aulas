@@ -9,21 +9,25 @@
 </head>
 <body>
     <table> <!-- Inicia a construção da tabela -->
-        <caption>Título</caption> <!-- Título da tabela -->
+        <caption>Título (caption)</caption> <!-- Título da tabela -->
         <thead> <!-- Cabeçalho da tabela-->
             <tr> <!-- Linha da tabela -->
-                 <th>Coluna 1</th> <!-- Título da linha -->
-                 <th>Coluna 2</th> <!-- Título da linha -->
-                 <th>Coluna 3</th> <!-- Título da linha -->
-                 <th>Coluna 4</th> <!-- Título da linha -->
-                 <th colspan="2">Coluna 5 e 6</th> <!-- Título da linha -->
+                 <th>Coluna 1 linha 1</th> <!-- Título da linha -->
+                 <th>Coluna 2 linha 1</th> <!-- Título da linha -->
+                 <th>Coluna 3 linha 1</th> <!-- Título da linha -->
+                 <th>Coluna 4 linha 1</th> <!-- Título da linha -->
+                 <th colspan="2">Coluna 5 e 6 (colspan) linha 1</th> <!-- Título da linha -->
             </tr>
         </thead> 
         <tr>
-            <td>Linha 1</td> <!-- Conteúdo da linha-->
-            <td>Linha 2</td> <!-- Conteúdo da linha-->
-            <td colspan="2">Linha mesclada</td>
-            <td>Linha 4</td>
+            <td>Coluna 1 linha 2</td> <!-- Conteúdo da linha-->
+            <td>Coluna 2 linha 2</td> <!-- Conteúdo da linha-->
+            <td rowspan="2">Coluna 3 linha 2 e 3 (rowspan)</td>
+            <td>Coluna 4 linha 2</td>
+            <td>Coluna 5 linha 2</td>
+        </tr>
+        <tr>
+            <td>Coluna 1 linha 3</td>
         </tr>
     </table>
 </body>
