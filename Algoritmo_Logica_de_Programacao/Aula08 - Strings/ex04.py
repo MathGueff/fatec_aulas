@@ -1,20 +1,13 @@
 while True:
-    frase = input("Digite uma frase: ").strip()
-    palavras = frase.split()
-    frase1 = ""
-    for palavra in palavras:
-        frase1 = frase1 + palavra
-    frase2 = frase1[::-1]
-    if frase1 == frase2:
-        palindromo = True
-    else:
-        palindromo = False
-
-    if(palindromo):
-        print("UAU, é um palíndromo!")
+    frase_inicial = ""
+    frase = input("Digite uma frase: ").lower()
+    frase_strip = frase.strip() # Retira os espaços nos extremos
+    frase_split = frase_strip.split() # Retira os espaço entre a frase, transforma ela em uma lista
+    for palavra in frase_split:
+        frase_inicial = frase_inicial + palavra # Usado para recriar a frase inicial sem os espaços que foram tirados no frase.split()
+    frase_inversa = frase_inicial[::-1] # Faz a string ficar invertidada
+    if(frase_inicial == frase_inversa):
+        print("UAU, é um palíndromo!!!!!!")
         break
     else:
-        print("Não foi dessa vez")
-        print("=================")
-
-# Verificando se uma frase é palíndroma
+        print("Infelizmente não é um palíndromo")
