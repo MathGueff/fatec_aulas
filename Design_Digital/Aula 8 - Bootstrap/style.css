@@ -1,0 +1,13 @@
+.estiloLabel{
+    color: rgb(99, 86, 86);
+}
+
+.corFundo{
+    background-color: rgb(190, 109, 109);
+}
+
+img{
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
