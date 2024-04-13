@@ -150,7 +150,7 @@ public class Filosofo extends Thread
 
         // Após operar, volta o semáforo mutex para o estado normal
         // indicando que já realizou todos procedimentos na mesa
-        //Mesa.mutex.incrementar();
+        Mesa.mutex.incrementar();
         // Decrementa seu semáforo
         Mesa.semaforos[this.ID].decrementar();
     }
