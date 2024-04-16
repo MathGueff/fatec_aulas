@@ -1,0 +1,13 @@
+lista = [x,y,z]
+
+matriz = [l1,l2,l3] ou [[x,y,z][a,b,c]]
+
+método IN
+
+x in lista -> retorna true porque a lista possui "x" entre seus elementos
+
+Podemos fazer a inversão com [::-1] assim como string
+
+lista.append() -> insere um valor na lista vazia
+
+lista = list("pão") -> vai criar uma lista ["p","ã","o"]
