@@ -1,0 +1,13 @@
+Vimos os tipos de declarações LET, VAR e CONST
+
+LET - impede de criarmos a mesma variável duas vezes 
+
+CONST - seu valor nunca é alterado
+
+VAR - seu valor pode ser alterado e pode ser criado mais de uma vez
+
+Vimos as funções getAtribute() e setAtribute()
+O primeiro serve para PEGAR o valor no atributo, o segundo serve para atribuir um valor a ela
+
+Usamos o setInterval para fazer a lampada piscar em um determinado intervalo de tempo
+Também tem o setTimeout, que diz após quanto tempo algo pode ocorrer (sem repetição)
