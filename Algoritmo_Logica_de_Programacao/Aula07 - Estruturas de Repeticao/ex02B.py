@@ -8,7 +8,7 @@ m = 1
 
 while m <= pessoas:
 
-    if (m < 5):
+    if (m <= pessoas):
         print("---------------------")
 
     m = m + 1
