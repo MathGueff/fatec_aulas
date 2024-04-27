@@ -10,10 +10,12 @@ function totalPagar(){
     resultado = document.getElementById("total").value
     if(total != 0){
         resultado = total
+        document.getElementById("total").value = resultado+" reais"
     }else{
         resultado = "Nenhum valor foi adicionado!"
+        document.getElementById("total").value = resultado
     }
-    document.getElementById("total").value = total
+    
 }
 
 function calcularAdicionais(){
