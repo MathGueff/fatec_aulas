@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Medidas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="col-12 text-center">
+        <h1>Alteração de unidade de medida:</h1>
+    </div>
+    <div class="col-12 text-center">
+        <p id="mostra_width">width=50px</p>
+        <p id="mostra_height">height=50px</p>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="mudar_medidas text-center" id="mudar_medidas">
+                <p>PX</p>
+            </div>
+        </div>
+        <div class="row justify-content-center botoes_alterar_medidas">
+            <div class="col-md-2">
+                <button class="btn-rem btn-alterar" onclick="mudarUnidade('rem')">Alterar para REM</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn-em btn-alterar" onclick="mudarUnidade('em')">Alterar para EM</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn-percent btn-alterar" onclick="mudarUnidade('%')">Alterar para %</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn-vh btn-alterar" onclick="mudarUnidade('vh')">Alterar para vh</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn-vw btn-alterar" onclick="mudarUnidade('vw')">Alterar para vw</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn-px btn-alterar" onclick="mudarUnidade('px')">Alterar para PX</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
