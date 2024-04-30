@@ -1,0 +1,42 @@
+.principal{
+    background-color: aliceblue;
+    height: 100vh;
+    text-align: center;
+}
+
+.tipo_rem{
+    background-color: rgb(146, 190, 34);
+    width: 30rem;
+    height: 30rem;
+}
+
+.tipo_em{
+    background-color: red;
+    width: 30em;
+    height: 30em;
+}
+
+.tipo_px{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+}
+
+.tipo_ch{
+    background-color: green;
+    width: 30ch;
+    height: 30ch;
+}
+
+.tipo_ex{
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    width: 30ex;
+    height: 30ex;
+}
+
+.tipo_percentual{
+    background-color: pink;
+    width: 30%;
+    height: 30%;
+}
