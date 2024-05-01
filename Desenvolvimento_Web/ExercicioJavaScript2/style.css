@@ -1,0 +1,10 @@
+section{
+    border-radius: 10px;
+    border: 2px solid #e4cfcf;
+    padding: 20px 25px;
+    margin: 20px;
+}
+
+ul{
+    list-style: none;
+}
