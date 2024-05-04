@@ -14,20 +14,56 @@
     </section>
     <section>
         <ul>
-            <li><a href="index1.html">Exercício 1:</a></li>
-            <li><a href="index2.html">Exercício 2:</a></li>
-            <li><a href="index3.html">Exercício 3:</a></li>
-            <li><a href="index4.html">Exercício 4:</a></li>
-            <li><a href="index5.html">Exercício 5:</a></li>
-            <li><a href="index6.html">Exercício 6:</a></li>
-            <li><a href="index7.html">Exercício 7:</a></li>
-            <li><a href="index8.html">Exercício 8:</a></li>
+            <li><a href="index1.html" class="link-exercicios">Exercício 1:</a></li>
+            <li><a href="index2.html" class="link-exercicios">Exercício 2:</a></li>
+            <li><a href="index3.html" class="link-exercicios">Exercício 3:</a></li>
+            <li><a href="index4.html" class="link-exercicios">Exercício 4:</a></li>
+            <li><a href="index5.html" class="link-exercicios">Exercício 5:</a></li>
+            <li><a href="index6.html" class="link-exercicios">Exercício 6:</a></li>
+            <li><a href="index7.html" class="link-exercicios">Exercício 7:</a></li>
+            <li><a href="index8.html" class="link-exercicios">Exercício 8:</a></li>
         </ul>
     </section>
     <section>
         <h3>
             A empresa R&T paga seus funcionários por horas trabalhadas. Para as primeiras 40 horas, eles recebem normalmente. Após ultrapassar este limite (40 horas), o valor pago por hora passa a ser três vezes maior. Na folha de pagamento é descontado R$ 1,50 para cada refeição realizada. Calcule e mostre o salário bruto, o valor do desconto da refeição e o salário líquido de um funcionário que trabalhou 62 horas. 
         </h3>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <label for="salario" class="form-label">Salário</label>
+                    <input type="text" name="salario" id="salario" class="form-control">
+                </div>
+                <div class="col-6">
+                    <label for="horas" class="form-label">Horas trabalhadas</label>
+                    <input type="text" name="horas" id="horas" class="form-control"> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <label for="refeicao" class="form-label">Número de refeições: </label>
+                    <input type="number" name="refeicao" id="refeicao" class="form-control"> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2" style="margin-top: 10px;">
+                    <button class="btn btn-primary" onclick="empresa()">Calcular</button>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-4">
+                    <label class="form-label" for="sal_bruto" id="sal_bruto">Salário Bruto:</label>
+                </div>    
+                <div class="col-4">
+                    <label class="form-label" for="refeicao_valor" id="refeicao_valor">Valor em Refeição:</label>
+                </div>  
+                <div class="col-4">
+                    <label class="form-label" for="sal_liquido" id="sal_liquido">Salário Líquido:</label>
+                </div>  
+            </div>
+        </div>
+        
+       
     </section>
     
     <script src="script.js"></script>
