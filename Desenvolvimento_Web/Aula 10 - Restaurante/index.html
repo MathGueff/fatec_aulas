@@ -10,11 +10,13 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="col-md-12 alert alert-primary titulo" role="alert">Hamburgueria XGostoso</div>
+        <div class="col-md-12 alert alert-primary titulo" role="alert">
+            <p>Hamburgueria XGostoso <span id="relogio"></span></p> 
+        </div>
         <div class="row">
             <div class="col-md-6">
                 <label class="form-label" for="telefone"><i class="ri-phone-line"></i>Telefone:</label>
-                <input class="form-control" type="text" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx">
+                <input class="form-control" type="text" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx" maxlength="11">
             </div>
             <div class="col-md-6">
                 <label class="form-label" for="nome"><i class="ri-user-line"></i> Nome do Cliente:</label>
@@ -24,8 +26,8 @@
         <div class="row">
             <div class="col-md-6">
                 <label for="combos"><i class="ri-restaurant-line"></i> Combos:</label>
-                <select class="form-select" name="combos" id="combos">
-                    <option selected value="0">R$20,00 -- Hamburguer com hamburger</option>
+                <select class="form-select" name="combos" id="combos" onchange="totalPagar()">
+                    <option selected value="20">R$20,00 -- Hamburguer com hamburger</option>
                     <option value="35">R$35,00 -- Hamburguer Saúdavel 100%</option>
                     <option value="5">R$5,00 -- XNada</option>
                     <option value="100">R$100,00 -- Hamburguer de Pizza de Strogonoff</option>
@@ -38,26 +40,30 @@
                 <label for="adicionais"><i class="ri-add-box-line"></i> Adicionais</label>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="adicionais" id="bacon_check" value="5,00">
-                    <label class="form-check-label" for="bacon_check">Bacon</label>
+                    <label class="form-check-label" for="bacon_check">R$5,00 - Bacon</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="adicionais" id="chedar_check" value="10,00">
-                    <label class="form-check-label" for="chedar_check">Cheddar</label>
+                    <label class="form-check-label" for="chedar_check">R$10,00 - Cheddar</label>
                 </div>
                 <div class="form-check">
                      <input class="form-check-input" type="checkbox" name="adicionais" id="picles_check" value="50,00"> 
-                    <label class="form-check-label" for="picles_check">Picles</label>
+                    <label class="form-check-label" for="picles_check">R$50,00 - Picles</label>
                 </div>
             </div>
             <div class="col-md-3">
-                <label for="entrega"><i class="ri-truck-fill"></i> Entrega</label>
+                <label for="entrega"><i class="ri-truck-fill"></i> Método de entrega:</label>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="escolha_entrega" id="escolha_viagem" checked value="viagem">
-                    <label class="form-check-label" for="viagem">Viagem</label>
+                    <input class="form-check-input" type="radio" name="escolha_entrega" id="escolha_viagem" checked value="10">
+                    <label class="form-check-label" for="viagem">R$10,00 - Viagem</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="escolha_entrega" id="escolha_balcao" value="balcao">
-                    <label class="form-check-label" for="viagem">Balcão</label>
+                    <input class="form-check-input" type="radio" name="escolha_entrega" id="escolha_balcao" value="2">
+                    <label class="form-check-label" for="viagem">R$2,00 - Balcão</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="escolha_entrega" id="escolha_balcao" value="100">
+                    <label class="form-check-label" for="viagem">R$100,00 - Cometa</label>
                 </div>
             </div>
         </div>
@@ -69,7 +75,7 @@
                 <button class="btn btn-primary"><i class="ri-add-line"></i> Novo Pedido</button>
             </div>
             <div class="col-md-2">
-                <button class="btn btn-primary"><i class="ri-file-paper-fill"></i> Recibo</button>
+                <button class="btn btn-primary" onclick="imprimir()"><i class="ri-file-paper-fill"></i> Recibo</button>
             </div>
         </div>
         <div class="row">
