@@ -1,0 +1,98 @@
+:root{
+    --corLaranja: #b65a39;
+    --corEstrela: #ffd51c;
+    --corFundo: #f0f0f0;
+    --fonteLista: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+#nome_receita{
+    color: var(--corLaranja);
+}
+
+.informacoes{
+    display: flex;
+    gap: 0.5%;
+}
+
+.informacoes-receita{
+    background-color: var(--corFundo);
+    display: flex;
+    padding:20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.informacoes-usuario{
+    background-color: var(--corFundo);
+    display: flex;
+    padding:20px;
+    width: 19.5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.informacoes-usuario img{
+    width: 100px;
+}
+
+.div-info{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt-laranja{
+    color: var(--corLaranja);
+}
+
+.fundo{
+    background-color: var(--corFundo);
+    height: 70px;
+    margin: 20px 0px 20px 15px;
+    width: 69%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-ingredientes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 5px;
+}
+
+.lista-ingredientes{
+    font-size: var(--fonteLista);
+}
+
+.comprar-ingredientes{
+    padding: 15px;
+    font-size: 20px;
+    background-color: var(--corLaranja);
+    color: #fff;
+    border-radius: 20px;
+    border: 4px solid var(--corLaranja);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 70%;
+}
