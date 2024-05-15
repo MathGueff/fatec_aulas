@@ -3,13 +3,14 @@
     --corEstrela: #ffd51c;
     --corFundo: #f0f0f0;
     --fonteLista: 20px;
+    --tamanho: 80%;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: var(--tamanho);
 }
 
 #nome_receita{
@@ -25,21 +26,19 @@
     background-color: var(--corFundo);
     display: flex;
     padding:20px;
-    width: 50%;
+    width: 60%;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
 .informacoes-usuario{
     background-color: var(--corFundo);
     display: flex;
-    padding:20px;
+    padding: 20px;
     width: 19.5%;
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    gap: 10px;
 }
 
 .informacoes-usuario img{
@@ -61,8 +60,8 @@
 .fundo{
     background-color: var(--corFundo);
     height: 70px;
-    margin: 20px 0px 20px 15px;
-    width: 69%;
+    margin: 20px 0px 20px 0px;
+    width: var(--tamanho);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: var(--tamanho);
     gap: 5px;
 }
 
@@ -94,5 +93,5 @@
 }
 
 img{
-    width: 70%;
+    width: var(--tamanho);
 }
