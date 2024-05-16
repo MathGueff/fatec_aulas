@@ -2,10 +2,11 @@
     border: 1px solid rgb(31, 135, 176);
     border-radius: 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
-article{
-    
+img{
+    width: 100px;
+    height: 100px;
 }
