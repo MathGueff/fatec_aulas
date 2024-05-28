@@ -7,7 +7,7 @@
 
     return tPato, tCoelho"""
 
-def patoCoelho(cabeca, pes):
+"""def patoCoelho(cabeca, pes):
     tPatos = 0
     tCoelhos = 0
 
@@ -33,9 +33,12 @@ def patoCoelho(cabeca, pes):
         if(tPatos + tCoelhos > cabeca):
             tPatos -= 2
             tCoelhos += 1
-        return tPatos, tCoelhos
+        return tPatos, tCoelhos"""
 
-
+def patoCoelho(ca,pe):
+    P = (4*cab - pe)/2
+    C = cab - P
+    return P,C
 
 cab = int(input("Digite a quantidade de cabeças: "))
 pe = int(input("Digite a quantidade de patas: "))
