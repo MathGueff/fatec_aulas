@@ -25,8 +25,9 @@ buscarCidade.addEventListener('click', async function buscarCidade(){
         let res_viacep = await fetch(viacep);
         res_viacep = await res_viacep.json();
     
-        // unsplash = `https://source.unsplash.com/1600x100/?${res_viacep.localidade}`;
-        // imagem_cidade.setAttribute("src", unsplash);
+        unsplash = `https://source.unsplash.com/1600x900/?${res_viacep.localidade}`;
+        imagem_cidade.setAttribute("src", unsplash);
+        imagem_cidade.style.display = "flex";
     
         cidade.value =  res_viacep.localidade;
         nomeCidade.innerHTML = res_viacep.localidade;
@@ -39,7 +40,8 @@ limparDados.addEventListener('click', function limparDados(){
     cep.value = "";
     rua.value = "";
     imagem_bandeira.setAttribute('src', "");
-    // imagem_cidade.setAttribute('src', "");
+    imagem_cidade.setAttribute('src', "");
+    imagem_cidade.style.display = 'none';
     nomeCidade.innerHTML = "Cidade: ";
     det_tmp.innerHTML = "Temperatura: ";
 });

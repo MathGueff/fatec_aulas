@@ -67,3 +67,9 @@ section{
 #img_bandeira{
     margin-left: 10px;
 }
+
+#img_cidade{
+    height: 600px;
+    display: none;
+    border-radius: 20px;
+}
