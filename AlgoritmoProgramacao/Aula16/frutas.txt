@@ -1,4 +1,1 @@
-banana
-uva
-morango
-ameixa
+Banana

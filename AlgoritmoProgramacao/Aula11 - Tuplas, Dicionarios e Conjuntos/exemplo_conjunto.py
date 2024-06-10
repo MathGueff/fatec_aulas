@@ -7,3 +7,6 @@ a = set("abracadabra")
 print(sorted(a))
 b = set("alacazam")
 print(sorted(b,reverse=True))
+c= set("eu tentei")
+
+print(sorted(c))

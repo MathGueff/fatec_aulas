@@ -8,9 +8,9 @@ filmes = {
 
 # fromkeys
 filmes_novachave = filmes.fromkeys(filmes)
-print(f"Alterando para None:\n {filmes_novachave}")
+print(f"Criando um dicionário com valores None e chaves iguais ao outro dic:\n {filmes_novachave}")
 filmes_novachave = filmes.fromkeys(filmes, 'bilionário')
-print(f"Alterando para bilionário:\n {filmes_novachave}")
+print(f"Criando um dicionário com valores especificados e chaves iguais ao outro dic:\n {filmes_novachave}")
 
 print("=================")
 
@@ -37,4 +37,4 @@ print(f"O dicionário usando .update ->\n {filmes}")
 print("=================")
 
 for chave, valor in filmes.items():
-    print(f"Eu assiti ao filme {chave}, lançado em {valor}")
+    print(f"Eu assisti ao filme {chave}, lançado em {valor}")
